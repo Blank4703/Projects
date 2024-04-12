@@ -1,0 +1,3 @@
+C:/Users/prakh/CLionProjects/Dialogue options template/cmake-build-debug/CMakeFiles/untitled.dir
+C:/Users/prakh/CLionProjects/Dialogue options template/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/prakh/CLionProjects/Dialogue options template/cmake-build-debug/CMakeFiles/rebuild_cache.dir

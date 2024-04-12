@@ -1,0 +1,101 @@
+body, html {
+    height: 100%;
+    margin:0;
+    scroll-behavior: smooth;
+    background-color: #000;
+    font-size: 30px;
+    z-index: 999;
+  }
+
+  @font-face {
+    font-family: "Cinzel";
+    src: url(./Fonts/CinzelDecorative-Regular.otf) format("opentype");
+  }
+.wrapper::-webkit-scrollbar{
+      width: 0.3rem;
+  }
+  
+.wrapper::-webkit-scrollbar-track{
+      background-color: #1a1b1c;
+  }
+  
+.wrapper::-webkit-scrollbar-thumb{
+      background-color: rgb(94, 12, 53);
+      border-radius: 10px;
+  }
+  
+h1{
+      font-size: 50px;
+      color: rgb(255, 166, 0);
+      text-align: center;
+      font-family: "Cinzel";
+      src: url(./Fonts/CinzelDecorative-Regular.otf) format("opentype");
+  }
+h2{
+      font-size: 40px;
+      color: #fff;
+  }
+  
+p{
+      font-size: 20px;
+      color: #fff;
+    }
+
+.TOS {
+    background-image: url(Images/TOSBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translateZ(0) scale(1);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;  
+}
+  
+.text-TOS {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    margin-left: 5%;
+    margin-right: 0;
+    border: 2px solid rgb(255, 166, 0);
+    background-color: #100a14;
+    border-radius: 50px;
+    padding: 2% 2% 2% 2%;
+    margin: 5% 0 0 6%;
+    word-spacing: 1%;
+  }
+
+  .commission {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    margin-left: 5%;
+    margin-right: 0;
+  }
+
+.botan {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .button {
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid rgb(255, 166, 0);
+    border-radius: 100px;
+    background-color: transparent;
+    padding: 2% 10% 2% 10%;
+    font-size: medium;
+    transition: ease-in-out .25s;
+    font-weight: bold;
+  }
+  
+  .button:hover {
+    background-color: rgb(204, 203, 203);
+    border-color: rgb(255, 166, 0);
+    color: black;
+    font-weight: bold;
+  }
